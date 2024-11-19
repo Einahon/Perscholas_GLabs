@@ -19,12 +19,16 @@ public class Concatenation {
     // String Supplement is concatenated with character B
     String s1 = "Supplement" + 'B'; // s1 becomes SupplementB
     public void concatenateStrings() {
-        System.out.println("Concatenation:");
+        System.out.println("\nConcatenation:");
         // concatenate str1 and str2
         System.out.println(str1.concat(str2)); // "Learn Java"
 
         // concatenate str2 and str11
         System.out.println(str2.concat(str1)); // "JavaLearn "
+
+        String message = "Welcome to Java";
+        System.out.println("The first character in the message is " + message.charAt(0));
+
     }
 
 

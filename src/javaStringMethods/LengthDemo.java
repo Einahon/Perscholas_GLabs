@@ -5,7 +5,7 @@ public class LengthDemo {
     String str2 = "";
 
     public void getLength() {
-        System.out.println("Length demonstration:" );
+        System.out.println("\nLength demonstration:" );
 
         System.out.println(str1.length());  // 4
         System.out.println(str2.length());  // 0

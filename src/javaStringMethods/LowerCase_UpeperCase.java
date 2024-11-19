@@ -11,7 +11,7 @@ public class LowerCase_UpeperCase {
 
             public void convertCases(){
 
-                System.out.println("Case Conversions:");
+                System.out.println("\nCase Conversions:");
             System.out.println(s1lower);
             System.out.println(s2upper);
 }

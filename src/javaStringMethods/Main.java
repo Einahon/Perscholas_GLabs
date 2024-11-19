@@ -20,6 +20,9 @@ public class Main {
 
         SplitFunction splitFunction = new SplitFunction();
         splitFunction.splitString();
+        
+        StringComparison strComparison = new StringComparison();
+        strComparison.compareString();
 
 
 

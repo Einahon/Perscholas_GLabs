@@ -10,7 +10,7 @@ public class SplitFunction {
     String[] result = vowels.split("::");
 
     public void splitString() {
-        System.out.println("Splitting string: ");
+        System.out.println("\nSplitting string: ");
 
     // converting array to string and printing it
     System.out.println("result = " + Arrays.toString(result));
