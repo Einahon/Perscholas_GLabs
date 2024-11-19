@@ -23,6 +23,8 @@ public class Main {
         
         StringComparison strComparison = new StringComparison();
         strComparison.compareString();
+        strComparison.testStringComparison1();
+        strComparison.testStringComparison2();
 
         Substring strSubstring = new Substring();
         strSubstring.extractSubstring();

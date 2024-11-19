@@ -11,4 +11,26 @@ public class StringComparison {
         System.out.println(s1.compareTo(s3)); //-1 because "l" is only one time lower than "m"
         System.out.println(s1.compareTo(s4)); // 2 because "h" is 2 times greater than "f"
     }
+
+    public void testStringComparison1() {
+        String s1="PerScholas";
+        String s2="PerScholas";
+        String s3=new String("PerScholas");
+        String s4="Teksystem";
+        System.out.println();
+        System.out.println(s1.equals(s2));//true
+        System.out.println(s1.equals(s3));//true
+        System.out.println(s1.equals(s4));//false
+
+    }
+
+    public void testStringComparison2() {
+        String s1="Perscholas";
+        String s2="Perscholas";
+        String s3=new String("Perscholas");
+        System.out.println();
+        System.out.println(s1==s2);//true (because both refer to same instance)
+        System.out.println(s1==s3);//false(because s3 refers to instance created in nonpool)
+
+    }
 }
