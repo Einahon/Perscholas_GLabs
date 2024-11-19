@@ -29,6 +29,9 @@ public class Main {
         strSubstring.findString();
         strSubstring.isContentPresent();
 
+        ReplaceFunction replaceFunction = new ReplaceFunction();
+        replaceFunction.replaceString();
+
 
 
     }
