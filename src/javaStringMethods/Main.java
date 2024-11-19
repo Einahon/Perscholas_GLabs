@@ -25,6 +25,7 @@ public class Main {
         strComparison.compareString();
         strComparison.testStringComparison1();
         strComparison.testStringComparison2();
+        strComparison.testStringComparison3();
 
         Substring strSubstring = new Substring();
         strSubstring.extractSubstring();
