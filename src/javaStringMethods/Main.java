@@ -15,6 +15,9 @@ public class Main {
         LowerCase_UpeperCase lcUc = new LowerCase_UpeperCase();
         lcUc.convertCases();
 
+        Concatenation concat = new Concatenation();
+        concat.concatenateStrings();
+
 
 
     }
