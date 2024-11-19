@@ -18,6 +18,9 @@ public class Main {
         Concatenation concat = new Concatenation();
         concat.concatenateStrings();
 
+        SplitFunction splitFunction = new SplitFunction();
+        splitFunction.splitString();
+
 
 
     }
