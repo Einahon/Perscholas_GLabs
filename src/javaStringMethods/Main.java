@@ -24,6 +24,11 @@ public class Main {
         StringComparison strComparison = new StringComparison();
         strComparison.compareString();
 
+        Substring strSubstring = new Substring();
+        strSubstring.extractSubstring();
+        strSubstring.findString();
+        strSubstring.isContentPresent();
+
 
 
     }
