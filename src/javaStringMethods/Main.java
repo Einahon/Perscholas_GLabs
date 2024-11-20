@@ -34,8 +34,5 @@ public class Main {
 
         ReplaceFunction replaceFunction = new ReplaceFunction();
         replaceFunction.replaceString();
-
-
-
     }
 }
