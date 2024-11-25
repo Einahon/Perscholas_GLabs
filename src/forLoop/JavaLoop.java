@@ -5,5 +5,8 @@ public class JavaLoop {
         LoopDemoOne loopDemoOne = new LoopDemoOne();
         loopDemoOne.printingText();
 
+        SummationOfNaturalNumbers summationOfNaturalNumbers = new SummationOfNaturalNumbers();
+        summationOfNaturalNumbers.sumOfNumbers();
+
     }
 }
