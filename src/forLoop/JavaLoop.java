@@ -8,5 +8,11 @@ public class JavaLoop {
         SummationOfNaturalNumbers summationOfNaturalNumbers = new SummationOfNaturalNumbers();
         summationOfNaturalNumbers.sumOfNumbers();
 
+        FormatOfPyramide formatOfPyramide = new FormatOfPyramide();
+        formatOfPyramide.printPyramid();
+
+        PalindromeExample palindromeExample = new PalindromeExample();
+        palindromeExample.displayPalindrome();
+
     }
 }
