@@ -6,8 +6,6 @@ public class StringReadingFromConsole {
     public static void main(String[] args) {
         StringReadingFromConsole stringReadingFromConsole = new StringReadingFromConsole();
         stringReadingFromConsole.readString();
-
-
     }
 
     public void readString() {
